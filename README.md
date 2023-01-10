@@ -4,6 +4,9 @@
 - Fat Arrows
 - desestructuracion 
 - clases y herencia
+
+## En este pequeño ejemplo, utilizamos una clase llamada "Ninja", le damos atributos y mediante los metodos, los mostramos por pantalla.
+
 ```javascript
   class Ninja {
     constructor(nombre, salud, velocidad, fuerza){
@@ -17,9 +20,6 @@
     }
     showStats(){
         console.log(`Nombre: ${this.nombre} \nFuerza: ${this.fuerza}\nVelocidad: ${this.velocidad}\nSalud: ${this.salud} `);
-    }
-    drinkSake(){
-        this.salud+=10;
     }
 }
 const ninja1 = new Ninja("Hyabusa");
